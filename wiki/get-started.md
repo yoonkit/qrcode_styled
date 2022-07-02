@@ -40,6 +40,6 @@ img = qr.get_image(
 )
 
 ### Store it in file
-with open('link.webp') as _fh:
+with open('link.webp', 'wb') as _fh:
     img.save(_fh, 'WEBP')
 ```
